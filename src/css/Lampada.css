@@ -1,0 +1,18 @@
+.divImgLampada {
+    text-align: center;
+    width: 100%;
+}
+
+.divBtnLampada {
+    width: 100%;
+    text-align: center;
+}
+
+.btnLampada {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 1px;
+}
