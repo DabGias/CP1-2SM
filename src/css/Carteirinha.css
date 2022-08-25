@@ -1,0 +1,16 @@
+.formCarteirinha {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.labelForm {
+    margin: 10px 10px 10px 0;
+    display: block;
+}
+
+.inputForm {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+}

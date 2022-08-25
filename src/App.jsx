@@ -2,6 +2,7 @@
 import "./css/App.css"
 import Lampada from "./components/Lampada"
 import Carros from "./components/Carros"
+import Carteirinha from "./components/Carteirinha"
 
 function App() {
     const carros = ["Ford", "FIAT", "Chevrolet", "Toyota", "Honda", "Rolls Royce", "Porsche", "Volkswagen", "Ferrari", "Jeep"]
@@ -31,6 +32,7 @@ function App() {
                     <li>{carros[9]}</li>
                 </ul>    
             </Carros>
+            <Carteirinha/>
         </>
     )
 }
