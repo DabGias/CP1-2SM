@@ -14,3 +14,9 @@
     border-radius: 10px;
     border-color: black;
 }
+
+.divOutput {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
