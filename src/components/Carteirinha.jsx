@@ -60,7 +60,7 @@ function Carteirinha() {
             </form>
 
             <div className="divOutput">
-                <p className="output">Foto: {carteirinha.foto}</p>
+                <p className="output">Foto: <img src={carteirinha.foto} alt="Imagem de upload"/></p>
                 <p className="output">Nome: {carteirinha.nome}</p>
                 <p className="output">RM: {carteirinha.rm}</p>
                 <p className="output">Curso: {carteirinha.curso}</p>
