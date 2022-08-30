@@ -1,4 +1,3 @@
-// import {BrowserRouter, Routes, Route} from "react-router-dom"
 import "./css/App.css"
 import Lampada from "./components/Lampada"
 import Carros from "./components/Carros"
@@ -6,6 +5,10 @@ import Carteirinha from "./components/Carteirinha"
 
 function App() {
     const carros = ["Ford", "FIAT", "Chevrolet", "Toyota", "Honda", "Rolls Royce", "Porsche", "Volkswagen", "Ferrari", "Jeep"]
+    const carteira1 = {'nome' : 'João', 'rm' : '1111', 'curso' : 'ADS', 'turma' : '1TDSPJ'}
+    const carteira2 = {'nome' : 'Pedro', 'rm' : '2222', 'curso' : 'CC', 'turma' : '1CCPI'}
+    const carteira3 = {'nome' : 'Carla', 'rm' : '3333', 'curso' : 'BD', 'turma' : '1BDKY'}
+    const alunos = [carteira1, carteira2, carteira3]
 
     return(
         <>
@@ -32,7 +35,7 @@ function App() {
                     <li>{carros[9]}</li>
                 </ul>    
             </Carros>
-            <Carteirinha/>
+            <Carteirinha alunos={alunos}/>
         </>
     )
 }
