@@ -6,9 +6,6 @@ import lampadaApagada from "../img/lampadaApagada.png"
 function Lampada() {
     const [lampada, setLampada] = useState(lampadaAcesa)
     const [btnLabel, setLabel] = useState("Apaga!")
-    // const [btnStyle, setStyle] = useState({
-    //     backgroundColor: 
-    // })
 
     function mudaLampada() {
         if (lampada === lampadaAcesa) {
